@@ -1,12 +1,12 @@
 # color ![colorize](https://img.shields.io/badge/colorize-true-red.svg) [![CocoaPods](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=flat-square)](https://github.com/htaslan/color/blob/master/LICENSE) [![Build Status](https://drone.io/github.com/htaslan/color/status.png)](https://drone.io/github.com/htaslan/color/latest) 
 
-String Colorize Module for Python 3.x
+String colorize module for Python 3.x
 
 Color chart
 
 ![chart](http://i.imgur.com/zGQ6f6z.png)
 
-# Installation
+## Installation
 
 ```sh
 $ pip install color
@@ -24,7 +24,7 @@ or make it
 $ python setup.py install
 ```
 
-# Usage
+## Usage
 
 ```py
 # -*- coding: utf-8 -*-
@@ -39,7 +39,7 @@ from color import *
 # colorize function. set the other code.
 print(colorize(38, 5, 197, 'foo bar baz'))
 
-# uncolorize funciton
+# uncolorize function
 print(uncolorize(red('foo')))
 
 # tr function.
@@ -66,10 +66,10 @@ cprint_black('cocoa bitter')
 # ...
 ```
 
-# Credits
+## Credits
 
 * [Hüseyin Tekinaslan](http://github.com/htaslan)
 
-# License
+## License
 
 The MIT License (MIT) - see [LICENSE](https://github.com/htaslan/python-colorize/blob/master/LICENSE) for more details
