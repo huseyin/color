@@ -1,4 +1,4 @@
-# color [![Build Status](https://drone.io/github.com/htaslan/color/status.png)](https://drone.io/github.com/htaslan/color/latest)
+# color ![colorize](https://img.shields.io/badge/colorize-true-red.svg) [![CocoaPods](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=flat-square)](https://github.com/htaslan/color/blob/master/LICENSE) [![Build Status](https://drone.io/github.com/htaslan/color/status.png)](https://drone.io/github.com/htaslan/color/latest) 
 
 String Colorize Module for Python 3.x
 
