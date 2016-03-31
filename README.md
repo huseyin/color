@@ -1,4 +1,4 @@
-# color
+# color [![Build Status](https://drone.io/github.com/htaslan/color/status.png)](https://drone.io/github.com/htaslan/color/latest)
 
 String Colorize Module for Python 3.x
 
