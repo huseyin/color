@@ -6,7 +6,7 @@ from enum import Enum
 
 # String colorize format.
 COLORIZE_FORMAT = "\033[{:d};{:d};{:d}m{!s}\033[0m"
-        
+
 class FgColor(Enum):
     Black   = 30
     Red     = 31
@@ -48,14 +48,14 @@ def _to_int(member):
         return member.value
     except:
         return member
-        
-    
+
+
 def colorize(bg, base, fg, *text):
     """ colorize(bg, base, fg, *text)
     """
-    # All argument types must be str. 
+    # All argument types must be str.
     rtext = [str(f) for f in text]
-    
+
     return COLORIZE_FORMAT.format(
         _to_int(bg), _to_int(base), _to_int(fg), ''.join(rtext)
     )
@@ -64,9 +64,9 @@ def colorize(bg, base, fg, *text):
 def uncolorize(text):
     """ uncolorize(text)
     """
-    match = re.match('^\033\[[0-9;]+m(.+?)\033\[0m', text)
+    match = re.match('(.*)\033\[[0-9;]+m(.+?)\033\[0m(.*)', text)
     try:
-        return match.groups()[0]
+        return ''.join(match.groups())
     except:
         return text
 
