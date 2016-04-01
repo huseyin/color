@@ -1,3 +1,8 @@
+# Build image:
+#       docker build -t color .
+# Run container:
+#       docker run -it color
+#
 FROM python:latest
 MAINTAINER Hüseyin Tekinaslan <htaslan@bil.omu.edu.tr> (@htaslan)
 
