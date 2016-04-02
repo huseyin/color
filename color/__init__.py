@@ -20,6 +20,9 @@ from .color import cprint_yellow
 from .color import cprint_blue
 from .color import cprint_magenta
 from .color import cprint_cyan
+from .color import bg_members
+from .color import fg_members
+from .color import base_members
 
 __all__ = [
     'FgColor',
@@ -44,4 +47,7 @@ __all__ = [
     'cprint_blue',
     'cprint_magenta',
     'cprint_cyan',
+    'bg_members',
+    'fg_members',
+    'base_members',
 ]

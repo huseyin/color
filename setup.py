@@ -6,11 +6,11 @@ import color
 def readme():
     with open('README.md', 'r') as f:
         return f.read()
-        
+
 setup(
     name='color',
     version='0.1',
-    description='python module of colorize string',
+    description='string colorize module for python',
     long_description=readme(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -21,7 +21,6 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: Implementation :: CPython',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     keywords='colorize pycolorize color pycolor',

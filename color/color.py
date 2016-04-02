@@ -143,3 +143,12 @@ def cprint_magenta(*text):
 
 def cprint_cyan(*text):
     cprint(*text, fg=FgColor.Cyan)
+
+def bg_members():
+    return { name: member for (name, member) in BgColor.__members__.items() }
+
+def fg_members():
+    return { name: member for (name, member) in FgColor.__members__.items() }
+
+def base_members():
+    return { name: member for (name, member) in Base.__members__.items() }
